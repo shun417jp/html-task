@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.text-blue{
+    color:blue;
+}
+span{
+    border: 2px dotted black;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+#bg-red{
+    background-color: red;
+}
