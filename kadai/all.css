@@ -1,0 +1,67 @@
+header,footer{
+    background-color: beige;
+    padding: 0.5rem;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+
+header ul li {
+    text-align: center;
+    width: 20%;
+}
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li + li{
+    border-left: 2px solid #00552e;
+}
+body{
+    min-width: 700px;
+}
+
+body{
+    
+    font-family: 'Yuji Syuku', serif;
+}
+.logo{
+    text-align: center;
+    background-color: rgba(0,0,0,0.26);
+}
+
+header img{
+    width: 30rem;
+    display: inline-block;
+}
+div{
+    text-align: center;
+}
+h1, h2{
+    text-align: center;
+}
+h2
+
+.moku{
+    width: 30%;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aqua;
+    display: block;
+    text-decoration: none;
+}
+img{
+    text-align: center;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
